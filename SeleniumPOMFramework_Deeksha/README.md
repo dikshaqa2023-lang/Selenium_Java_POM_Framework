@@ -16,15 +16,3 @@ This project contains a basic Selenium + Java + TestNG Page Object Model framewo
 11. Verify order
 12. Logout
 
-## Before running
-Update:
-- src/test/resources/config.properties
-- Application URL
-- Valid/invalid credentials
-- Selenium locators in the page classes
-
-## Run
-Use Maven:
-mvn test
-
-The locators are generic examples and must be replaced with the actual application's locators.
