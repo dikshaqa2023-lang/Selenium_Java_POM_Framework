@@ -6,9 +6,9 @@ import org.openqa.selenium.WebDriver;
 public class LoginPage {
     WebDriver driver;
 
-    private By username = By.id("username");
+    private By username = By.id("user-name");
     private By password = By.id("password");
-    private By loginButton = By.id("loginBtn");
+    private By loginButton = By.id("login-button");
     private By errorMessage = By.xpath("//div[@class='error-message']");
     private By logoutButton = By.xpath("//button[text()='Logout']");
 
