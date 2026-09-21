@@ -27,7 +27,7 @@ public class EcommerceTest extends BaseTest {
 
         Assert.assertTrue(
             driver.getCurrentUrl().contains("home"),
-            "Login was not successful"
+            "Epic sadface: Username and password do not match any user in this service"
         );
     }
 
